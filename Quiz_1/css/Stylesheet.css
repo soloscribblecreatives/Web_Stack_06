@@ -1,0 +1,193 @@
+body
+{
+	margin:15px auto;
+    background-color: #ffffff;
+}
+
+#wrapper
+{
+	width:768px;
+	height:1024px;
+	position:relative;
+	margin:0 auto;
+}
+
+#start-tab01
+{
+    width: 400px;
+    height: 400px;
+	position: absolute;
+	left: 170px;
+	top: 300px;
+}
+
+#atab01
+{
+    width: 377px;
+    height: 95px;
+	position: absolute;
+	left: 200px;
+	top: 490px;
+}
+
+#atab02
+{
+    width: 377px;
+    height: 95px;
+	position: absolute;
+	left: 200px;
+	top: 599px;
+}
+
+#atab03
+{
+    width: 377px;
+    height: 95px;
+	position: absolute;
+	left: 200px;
+	top: 720px;
+}
+
+#atab04
+{
+    width: 377px;
+    height: 95px;
+	position: absolute;
+	left: 200px;
+	top: 835px;
+}
+
+#skip
+{
+    width: 80px;
+    height: 45px;
+	position: absolute;
+	right: 84px;
+	top: 858px;
+}
+
+#home
+{
+    width: 120px;
+    height: 100px;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+#close01
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 128px;
+	top: 333px;
+}
+
+#close02
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 89px;
+	top: 260px;
+}
+
+#close03
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 128px;
+	top: 170px;
+}
+
+#close04
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 95px;
+	top: 110px;
+}
+
+#close05
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 128px;
+	top: 170px;
+}
+
+#close06
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 95px;
+	top: 110px;
+}
+
+#close07
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 128px;
+	top: 175px;
+}
+
+#close08
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 95px;
+	top: 110px;
+}
+
+#close09
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 40px;
+	top: 97px;
+}
+
+#close10
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 40px;
+	top: 97px;
+}
+
+#next
+{
+    width: 95px;
+    height: 95px;
+	position: absolute;
+	right: 95px;
+	bottom: 90px;
+}
+
+#open01
+{
+    width: 555px;
+    height: 342px;
+	position: absolute;
+	left: 115px;
+	top: 253px;
+}
+
+#open02
+{
+    width: 555px;
+    height: 342px;
+	position: absolute;
+	left: 115px;
+	bottom: 84px;
+}

@@ -1,6 +1,6 @@
 body
 {
-	margin:0 auto;
+	margin:15px auto;
     background-color: #ffffff;
 }
 
@@ -81,7 +81,7 @@ body
     height: 95px;
 	position: absolute;
 	right: 128px;
-	top: 333px;
+	top: 172px;
 }
 
 #close02
@@ -89,8 +89,8 @@ body
     width: 95px;
     height: 95px;
 	position: absolute;
-	right: 89px;
-	top: 260px;
+	right: 95px;
+	top: 110px;
 }
 
 #close03
@@ -135,7 +135,7 @@ body
     height: 95px;
 	position: absolute;
 	right: 128px;
-	top: 175px;
+	top: 145px;
 }
 
 #close08

@@ -1,0 +1,31 @@
+body
+{
+	margin:15px auto;
+    background-color: #ffffff;
+}
+
+#wrapper
+{
+	width:768px;
+	height:1024px;
+	position:relative;
+	margin:0 auto;
+}
+
+#quiz1
+{
+	position: absolute;
+	left: 226px;
+    top: 421px;
+    width: 334px;
+    height: 154px;
+}
+
+#quiz2
+{
+	position: absolute;
+	left: 226px;
+	top: 590px;
+	width: 334px;
+	height: 154px;
+}
