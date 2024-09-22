@@ -12,10 +12,10 @@
 
 #asset2 {
     position: absolute;
-  left: 449px;
-  top: 714px;
-  width: 42px;
-  height: 43px;
+  left: 405px;
+  top: 692px;
+  width: 64px;
+  height: 65px;
   transform-origin: right bottom;
 	z-index: 3;
 }
@@ -28,10 +28,10 @@
 
 #asset3 {
     position: absolute;
-  left: 575px;
-  top: 717px;
-  width: 42px;
-  height: 43px;
+  left: 589px;
+  top: 697px;
+  width: 64px;
+  height: 65px;
   transform-origin: right top;
 	z-index: 3;
 }

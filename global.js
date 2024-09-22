@@ -435,7 +435,7 @@ function open_page2(url,page_id,count){
 	if(page_id == 2){
 		document.getElementById("click_through").innerHTML='<div class="slide02_inline_wraper" id="buttons">\
 		<div id="slide01_question01_choices01" class="control-group" onclick="initSound();">\
-			<label class="control control_radio"><div class="lbl_pos"></div><input type="radio" id="slide01_radio01_01" name="checkB01" value="interested"/><div class="control_indicator" id="radio01" data-answer="yes" onclick="select1()"></div></label>\
+			<label class="control control_radio"><div class="lbl_pos"></div><input type="radio" id="slide01_radio01_01" name="checkB01" value="Interested"/><div class="control_indicator" id="radio01" data-answer="yes" onclick="select1()"></div></label>\
 			<label class="control control_radio"><div class="lbl_pos"></div><input type="radio" id="slide01_radio01_02" name="checkB01" value="Not Interested"/><div class="control_indicator" id="radio02" data-answer="no" onclick="select2()"></div></label>\
 		</div>\
 			<div class="submit_button" onclick="savedata(1,1,2,\'' + page_id + '\');endTime1(2);hidesubmitonclick();"></div>\

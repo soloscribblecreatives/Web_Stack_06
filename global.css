@@ -108,8 +108,7 @@ html[xmlns] .clearfix {
 .slide_arrow {
 	position: relative;
 	top: 380px;
-	opacity: .8;
-	display: none;
+	opacity: 0.8;
 	z-index: 999;
 	visibility: visible;
 }
@@ -160,6 +159,7 @@ html[xmlns] .clearfix {
 	-webkit-transition: bottom 5s, -webkit-transform 2s;
 	transition: bottom 1s, -webkit-transform 2s;
 	visibility: visible;
+	display: none;
 	z-index: 999;
 }
 .slide_jumper {
@@ -199,7 +199,6 @@ html[xmlns] .clearfix {
 	position: absolute;
 	bottom: 0px;
 	left: 38px;
-	display: block;
 	width: 56px;
 	height: 20px;
 	border-radius: 5px 5px 0 0;
@@ -209,6 +208,7 @@ html[xmlns] .clearfix {
 	-webkit-transition: bottom 1s, -webkit-transform 2s;
 	transition: bottom 1s, -webkit-transform 2s;
 	visibility: visible;
+	display: none;
 	z-index: 999;
 }
 .reference.active {
@@ -570,24 +570,23 @@ h1 {
     height: 810px;
 	top: 0px;
 	left:0px;
-	z-index: 999;
 }
 
 #radio01 {
     position: absolute;
-  left: 415px;
-  top: 692px;
-  width: 111px;
-  height: 118px;
+  left: 350px;
+  top: 678px;
+  width: 165px;
+  height: 132px;
 	z-index: 999;
 }
 
 #radio02 {
     position: absolute;
-  left: 535px;
-  top: 692px;
-  width: 111px;
-  height: 118px;
+  left: 538px;
+  top: 678px;
+  width: 166px;
+  height: 132px;
 	z-index: 999;
 }
 
