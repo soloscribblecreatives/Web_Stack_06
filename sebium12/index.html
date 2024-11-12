@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title>Sebium</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOS">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="edge_includes/animate.css" media="screen"/>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script> -->
+    <script src="edge_includes/jquery-2.0.3.min.js"></script>
+   <style>
+body {
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+.EDGE-144335490 {
+        width: -webkit-fill-available!important;
+    }
+	
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+	position: absolute;
+  left: 271px;
+  top: 0px;
+  width: 798px;
+  height: 29px;
+	z-index: 2;
+}
+
+.spot1 {
+	position: absolute;
+  left: 267px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot2 {
+	position: absolute;
+  left: 382px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot3 {
+	position: absolute;
+  left: 497px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot4 {
+	position: absolute;
+  left: 612px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot5 {
+	position: absolute;
+  left: 727px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot6 {
+	position: absolute;
+  left: 842px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot7 {
+  position: absolute;
+  left: 957px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+  z-index: 15;
+}
+
+.s1_1 {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.s1_2 {
+	position: fixed;
+  left: 549px;
+  top: 260px;
+  width: 320px;
+  height: 55px;
+	animation: fadeInDown 0.5s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 4;
+}
+
+.s1_3 {
+	position: fixed;
+  left: 619px;
+  top: 330px;
+  width: 180px;
+  height: 50px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s1_4 {
+	position: fixed;
+  left: 405px;
+  top: 457px;
+  width: 593px;
+  height: 78px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 0.6s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_5 {
+	position: fixed;
+  left: 418px;
+  top: 469px;
+  width: 283px;
+  height: 54px;
+	animation: flashLong 3s infinite;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_6 {
+	position: fixed;
+  left: 708px;
+  top: 467px;
+  width: 282px;
+  height: 56px;
+	animation: flashLong 3s infinite;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_7 {
+	position: fixed;
+  left: 82px;
+  top: 366px;
+  width: 883px;
+  height: 140px;
+	animation: fadeInDown 1s;
+	animation-delay: 4s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_8 {
+	position: fixed;
+  left: 516px;
+  top: 321px;
+  width: 144px;
+  height: 94px;
+	animation: pulse 1s infinite;
+	animation-delay: 4.5s;
+	animation-fill-mode: both;
+	opacity: 0;
+	z-index: 2;
+}
+
+.s1_9 {
+	position: fixed;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 10;
+}
+
+.s1_pop1 {
+	position: fixed;
+	height: 100px;
+	width: 150px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 15;
+}
+
+.s1_c1ose1 {
+	position: fixed;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
+
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownSmallSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
+}
+
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
+}
+    
+    </style>
+</head>
+<body onload="load();" style="margin:0px;">
+<input type="hidden" name="" id="pagename" value="index12.html">
+<div id="Stage" class="EDGE-144335490" style="position: absolute;">
+    <div class="s1_1"><img src="images/s1_1.png" width="100%" alt=""></div><div class="s1_2"><img src="images/s1_2.png"/></div><div class="s1_3"><img src="images/s1_3.png"/></div><div class="s1_4"><img src="images/s1_4.png"/></div><div class="s1_5"><img src="images/s1_5.png"/></div><div class="s1_6"><img src="images/s1_6.png"/></div><div class="nav"><img src="images/nav.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="spot6" onclick="spot6()"></div><div class="spot7" onclick="spot7()"></div>
+</div>
+<div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
+<span id="clickEventDuration" style="display: none;"></span>
+<script src="getUserAction.js"></script>
+
+	<script>
+		function spot1() {
+			window.location.href="../sebium5/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}	
+		function spot2() {
+			window.location.href="../sebium8/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot3() {
+			window.location.href="../sebium10/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot4() {
+			window.location.href="../sebium12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot5() {
+			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot6() {
+			window.location.href="../sebium19/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot7() {
+			window.location.href="../sebium23/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+	</script>
+<map id="map_ID" name="map">
+    <!-- <area shape="poly" coords="64,773, 99,1156, 234,778, 202,1157" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
+
+    <!-- <area shape="poly" coords="758,1327,67,788,98,1157,204,1162,232,790" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
+    <area shape="rect" coords="67,776,239,1170" href="javascript:;" id="posology" alt="Posology" title="1" />
+    <area shape="rect" coords="235,781,399,1170" href="javascript:;" id="posology2" alt="Posology2" title="2" />
+    <area shape="rect" coords="403,825,525,1170" href="javascript:;" id="posology3" alt="Posology3" title="3" />
+    <area shape="rect" coords="529,772,647,1168" href="javascript:;" id="posology4" alt="Posology4" title="4" />
+    <area shape="rect" coords="652,837,746,1170" href="javascript:;" id="posology5" alt="Posology5" title="5" />
+    <area shape="rect" coords="748,779,898,1170" href="javascript:;" id="posology6" alt="Posology6" title="6" />
+    <area shape="rect" coords="901,864,1069,1170" href="javascript:;" id="posology7" alt="Posology7" title="7" />
+
+</map>
+
+  <script>
+       var clickEventDurationData=$("#clickEventDuration").text();
+           var jsonData = (clickEventDurationData=='')? [] : JSON.parse(clickEventDurationData);
+           console.log(jsonData);
+   function addEventduration(){
+        var dt = new Date();
+        var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();        
+        var id=$("#pagename").val();
+        var data = { 'Id': id, 'Time': time };
+        jsonData.push(data);
+        var formData = JSON.stringify(jsonData);
+        $('#clickEventDuration').text(formData);    
+    }
+
+     addEventduration(); 
+    
+        // function getslide() {
+
+        //     $(".EDGE-144335490").on("swipeleft", swipeHandlerleft);
+        //     $(".EDGE-144335490").on("swiperight", swipeHandlerright);
+        //     // Callback function references the event target and get the slide number
+        //     function swipeHandlerleft(event) { 
+        //         window.location.href="../atoderm3/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        //     }
+        //     function swipeHandlerright(event) {
+        //         window.location.href="../atoderm1/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+
+        //     }
+        // } 
+        // setTimeout(function(){ $("div.EDGE-144335490").css("background-color", "#e1e5ea"); }, 900);
+
+document.addEventListener('touchstart', handleTouchStart, false);        
+document.addEventListener('touchmove', handleTouchMove, false);
+var urlprops=$("#clickEventDuration").text();
+
+var xDown = null;                                                        
+var yDown = null;
+
+function getTouches(evt) {
+  return evt.touches ||             // browser API
+         evt.originalEvent.touches; // jQuery
+}                                                     
+
+function handleTouchStart(evt) {
+    const firstTouch = getTouches(evt)[0];                                      
+    xDown = firstTouch.clientX;                                      
+    yDown = firstTouch.clientY;                                      
+};                                                
+                                                                         
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {        
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
+        if ( xDiff > 0 ) {
+            window.location.href="../sebium13/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            // console.log("right swipe ");
+        } else {
+            // console.log("left swipe");
+             window.location.href="../sebium10/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        }                       
+    } else {
+        if ( yDiff > 0 ) {
+            console.log(" down swipe ");
+        } else { 
+            /* up swipe */
+        }                                                                 
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null;                                             
+};
+
+
+// $(document).ready(function () {
+//         $('#img01').click(function (e) {
+//             $('#divIntro')
+//                 .show()
+//                 .text('At location - X: ' + e.pageX + ' Y:' + e.pageY)
+//                 .css({ position: 'absolute', color: '#000',
+//                     left: e.pageX, top: e.pageY
+//             });
+//         });
+//     });
+
+
+
+var mousex=0;
+        var mousey=0;
+
+        document.addEventListener("mousemove", () => {
+           mousex = event.clientX; // Gets Mouse X
+           mousey = event.clientY; // Gets Mouse Y
+          console.log([mousex, mousey]); // Prints data
+        });
+
+        $('#image').click(function(e){
+            $('#divIntro').hide()
+            console.log("====="+mousex+"====");
+            var x = parseInt(mousex);
+            var y = parseInt(mousey);
+            // console.log(typeof x);
+            // console.log(typeof y); 
+            // alert("X:"+x+" y:"+y);
+                console.log(x +"-"+ y);
+             // return;
+            var width = screen.width;
+            // if(width>=1020){
+                if(32<=x && 107>=x) {
+                    // console.log(x);
+                    if(400<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm5/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    }
+                } 
+                
+                if(120<=x && 190>=x) {
+                    if(400<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm6/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    }
+                } 
+                
+                if(205<=x && 265>=x) {
+                    if(420<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm9/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    }
+                }
+                 if(275<=x && 325>=x) {
+                    if(395<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm13/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    } 
+                }
+
+                if(335<=x && 382>=x) {
+                    if(436<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm17/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    } 
+                }
+
+                if(380<=x && 450>=x) {
+                    if(400<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm22/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    } 
+                }
+                
+                if(455<=x && 550>=x) {
+                    if(440<=y && 595>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm24/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    } 
+                }
+
+
+
+                
+                if(625<=x && 785>=x) {
+                    // console.log(x);
+                    if(40<=y && 85>=y){
+                        // console.log(y);
+                        // console.log("smoothing reparing creame");
+                        window.location.href="../atoderm2/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                    }
+                } 
+                
+                // if(590<=x && 690>=x) {
+                //     if(0<=y && 35>=y){
+                //         // console.log(y);
+                //         // console.log("smoothing reparing creame");
+                //         window.location.href="../atoderm6/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                //     }
+                // } 
+                
+                // if(700<=x && 800>=x) {
+                //     if(0<=y && 35>=y){
+                //         // console.log(y);
+                //         // console.log("smoothing reparing creame");
+                //         window.location.href="../atoderm9/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                //     }
+                // }
+                 
+                //  if(810<=x && 910>=x) {
+                //     if(0<=y && 35>=y){
+                //         // console.log(y);
+                //         // console.log("smoothing reparing creame");
+                //         window.location.href="../atoderm13/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                //     } 
+                // }
+                
+                // if(920<=x && 1020>=x) {
+                //     if(0<=y && 35>=y){
+                //         // console.log(y);
+                //         // console.log("smoothing reparing creame");
+                //         window.location.href="../atoderm24/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+                //     } 
+                // }                  
+        });
+
+
+        // setTimeout(function(){ $("div.EDGE-144335490").css("background-color", "#e1e5ea"); }, 900);
+
+        $('#posology').click(function(e){
+            window.location.href="../atoderm001/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology2').click(function(e){
+            window.location.href="../atoderm6/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology3').click(function(e){
+            window.location.href="../atoderm9/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology4').click(function(e){
+            window.location.href="../atoderm13/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology5').click(function(e){
+            window.location.href="../atoderm17/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology6').click(function(e){
+            window.location.href="../atoderm22/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+        $('#posology7').click(function(e){
+            window.location.href="../atoderm24/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+        });
+
+
+        function load() {
+            var ImageMap = function (map, img) {
+                var n,
+                    areas = map.getElementsByTagName('area'),
+                    len = areas.length,
+                    coords = [],
+                    previousWidth = 2000;
+                for (n = 0; n < len; n++) {
+                    coords[n] = areas[n].coords.split(',');
+                }
+                this.resize = function () {
+                    var n, m, clen,
+                        x = img.offsetWidth / previousWidth;
+                    for (n = 0; n < len; n++) {
+                        clen = coords[n].length;
+                        for (m = 0; m < clen; m++) {
+                            coords[n][m] *= x;
+                        }
+                        areas[n].coords = coords[n].join(',');
+                    }
+                    previousWidth = document.body.clientWidth;
+                    return true;
+                };
+                window.onresize = this.resize;
+            },
+            imageMap = new ImageMap(document.getElementById('map_ID'), document.getElementById('image1'));
+            imageMap.resize();
+            return;
+        }
+
+    </script>
+
+<style type="text/css">
+    .mCircle {
+        height: 105px;
+        width: 120px;
+    }
+    #Stage_Symbol_1_page01_02{
+        position: relative!important;
+        display: none!important;
+    }
+    #Stage_Symbol_1{
+        position: relative!important;
+    }
+    #Stage_Symbol_1_page01_01{
+        position: relative!important;
+    }
+</style>    
+</body>
+</html>
+

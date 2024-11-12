@@ -1,55 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta http-equiv="cache-control" content="max-age=200"/>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Gyno Masterclass</title>
-<link rel="stylesheet" type="text/css" href="animate.css" media="screen"/>
-<link rel="stylesheet" type="text/css" href="global.css" media="screen"/>
+<head runat="server">
+    <title>Sebium</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOS">
 
-<script src="jquery.min.js" type="text/javascript" language="javascript"></script>
-<script src="jquery.mobile.custom.min.js" type="text/javascript" language="javascript"></script>
-<script src="jquery.touchSwipe.min.js" type="text/javascript" language="javascript"></script>
+	<meta http-equiv="cache-control" content="max-age=200"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="edge_includes/animate.css" media="screen"/>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script> -->
+    <script src="edge_includes/jquery-2.0.3.min.js"></script>
+	
+<style>
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 200px 200px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+</style>
+
 </head>
-
-<body>
-<div id="wrapper" rel="1">
-  <div class="slide_arrow">
-    <div class="left_arrow" ><img src="left_arrow.png" alt="previous icon" width="23" height="23" ></div>
-    <div class="right_arrow" ><img src="right_arrow.png" alt="next icon" width="23" height="23"></div>
-  </div>
-  <div id="main_content"></div>
-  <div class="reference active">
-    <div class="box">
-      <div class="slide_jumper">
-		  <div class="slides"><img src="thumbs/01.png" alt=""></div>
-		  <div class="slides"><img src="thumbs/02.png" alt=""></div>
-      </div>
-    </div>
-    <div class="box_btn"></div>
-<!-- 	<div class="blocker" onclick="playVid1()"></div> -->
-	<div id="myconsole"></div>
-	<div id="click_through"></div>
-  </div>
+<body onload="load();" style="margin:0px;">
+<input type="hidden" name="" id="pagename" value="index1.html">
+		<a class="button" href="sebium1/index.html">Sebium</a>
 </div>
-
-<script src="global.js" type="text/javascript" language="javascript"></script> 
-<script>
-
-$(document).ready(function(){
-  // jQuery(".next").bind(event, function(){
-  //     document.location = 'VoltarenVAsb/VoltarenVAsb.html';
-  //     });
-var selectedContentPath = 'slide1/';
-//  document.getElementById("main_content").innerHTML='<object type="text/html" width="1024px" height="768px" data="'+selectedContentPath+"Dlight1.htm"+'"></object>';
-
-
-$("#main_content").html('<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><img id="asset1" src="slide1/1.png" width="1080" height="810">');
-
-});
-</script> 
-
 </body>
 </html>
+
