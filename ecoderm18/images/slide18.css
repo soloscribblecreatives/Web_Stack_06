@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.study {
+  position: absolute;
+  left: 801px;
+  top: 710px;
+  width: 123px;
+  height: 49px;
+  z-index: 15;
+}
+
+.posology {
+  position: absolute;
+  left: 925px;
+  top: 710px;
+  width: 123px;
+  height: 49px;
+  z-index: 15;
+}
+
+.bar {
+  position: absolute;
+  left: 24px;
+  top: 726px;
+  width: 1032px;
+  height: 77px;
+  z-index: 10;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s2 {
+  position: absolute;
+  left: 28px;
+  top: 30px;
+  width: 432px;
+  height: 120px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s3 {
+	position: absolute;
+  left: 30px;
+  top: 166px;
+  width: 725px;
+  height: 111px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 243px;
+  top: 419px;
+  width: 253px;
+  height: 373px;
+	animation: zoomIn 0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	transform-origin: bottom;
+	z-index: 10;
+}
+
+.s5 {
+	position: absolute;
+  left: 476px;
+  top: 302px;
+  width: 580px;
+  height: 38px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 493px;
+  top: 373px;
+  width: 570px;
+  height: 86px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 1.2s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.s7 {
+	position: absolute;
+  left: 493px;
+  top: 537px;
+  width: 573px;
+  height: 108px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 1.4s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.spot1 {
+	position: absolute;
+  left: 682px;
+  top: 0px;
+  width: 72px;
+  height: 80px;
+	z-index: 12;
+}
+
+.spot2 {
+	position: absolute;
+  left: 757px;
+  top: 0px;
+  width: 72px;
+  height: 80px;
+	z-index: 12;
+}
+
+.spot3 {
+	position: absolute;
+  left: 832px;
+  top: 0px;
+  width: 72px;
+  height: 80px;
+	z-index: 12;
+}
+
+.spot4 {
+	position: absolute;
+  left: 906px;
+  top: 0px;
+  width: 72px;
+  height: 80px;
+	z-index: 12;
+}
+
+.spot5 {
+	position: absolute;
+  left: 980px;
+  top: 0px;
+  width: 72px;
+  height: 80px;
+	z-index: 12;
+}
+
+
+@keyframes flashLongOn {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+@keyframes zoomInLight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes revealVerticalDown {
+  0% {
+    clip: rect(0px,600px,0px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,600px,700px,0px);
+	opacity: 1;
+  }
+}
