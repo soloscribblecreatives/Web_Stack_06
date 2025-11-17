@@ -259,7 +259,7 @@
 <body style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index10.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide10.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div>
+    <link rel="stylesheet" type="text/css" href="images/slide10.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div><div class="s10"><img src="images/s10.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="hit_1"><img src="images/pop1.png" width="1080" height="810" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_close1" onclick="hit_close1()"></div>
 </div>
 <div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
 <span id="clickEventDuration" style="display: none;"></span>
@@ -344,11 +344,11 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
         if ( xDiff > 0 ) {
-            //window.location.href="../ecoderm12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            window.location.href="../ecoderm11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
             // console.log("right swipe ");
         } else {
             // console.log("left swipe");
-            //window.location.href="../ecoderm9/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            window.location.href="../ecoderm9/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -406,27 +406,66 @@ var mousex=0;
 	
 
 	<script>
-		function posology() {
-			window.location.href="../ecoderm11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
-		}
-	</script>
+function hit_pop1() {
+	$('.hit_1').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop1').css("display","none");
+}
 
-<style type="text/css">
-    .mCircle {
-        height: 105px;
-        width: 120px;
-    }
-    #Stage_Symbol_1_page01_02{
-        position: relative!important;
-        display: none!important;
-    }
-    #Stage_Symbol_1{
-        position: relative!important;
-    }
-    #Stage_Symbol_1_page01_01{
-        position: relative!important;
-    }
-</style>    
+function hit_pop2() {
+	$('.hit_2').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop2').css("display","none");
+}
+
+function hit_pop3() {
+	$('.hit_3').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop3').css("display","none");
+}
+
+function hit_pop4() {
+	$('.hit_4').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop4').css("display","none");
+}
+
+function hit_pop5() {
+	$('.hit_5').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop5').css("display","none");
+}
+
+function hit_pop6() {
+	$('.hit_6').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop6').css("display","none");
+}
+
+function hit_pop7() {
+	$('.hit_7').css("display","block");
+	$('.hit_close1').css("display","block");
+	$('.hit_pop7').css("display","none");
+}
+
+function hit_close1() {
+	$('.hit_1').css("display","none");
+	$('.hit_2').css("display","none");
+	$('.hit_3').css("display","none");
+	$('.hit_4').css("display","none");
+	$('.hit_5').css("display","none");
+	$('.hit_6').css("display","none");
+	$('.hit_7').css("display","none");
+	$('.hit_pop1').css("display","block");
+	$('.hit_pop2').css("display","block");
+	$('.hit_pop3').css("display","block");
+	$('.hit_pop4').css("display","block");
+	$('.hit_pop5').css("display","block");
+	$('.hit_pop6').css("display","block");
+	$('.hit_pop7').css("display","block");
+	$('.hit_close1').css("display","none");
+}
+	</script> 
 </body>
 </html>
 

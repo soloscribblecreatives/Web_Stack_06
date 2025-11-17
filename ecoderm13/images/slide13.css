@@ -78,7 +78,7 @@
   top: 381px;
   width: 237px;
   height: 74px;
-	animation: flashLongOn 2s infinite;
+	animation: flashLongOn 1.5s infinite;
 	animation-delay: 1.2s;
 	animation-fill-mode: both;
 	z-index: 10;

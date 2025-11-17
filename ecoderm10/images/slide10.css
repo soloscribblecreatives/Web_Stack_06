@@ -108,6 +108,17 @@
   z-index: 5;
 }
 
+.s10 {
+	position: absolute;
+  left: 259px;
+  top: 345px;
+  width: 43px;
+  height: 34px;
+	animation: flashLongOn 1s infinite;
+	animation-delay: 1.8s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
 
 
 .spot1 {
@@ -153,6 +164,96 @@
   width: 72px;
   height: 80px;
 	z-index: 12;
+}
+
+.hit_1, .hit_2, .hit_3, .hit_4, .hit_5, .hit_6, .hit_7  {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.hit_pop1 {
+	position: absolute;
+  left: 25px;
+  top: 279px;
+  width: 431px;
+  height: 381px;
+	z-index: 10;
+}
+
+.hit_pop2 {
+	position: absolute;
+  left: 612px;
+  top: 282px;
+  width: 446px;
+  height: 416px;
+	z-index: 10;
+}
+
+.hit_pop3 {
+	position: absolute;
+  left: 368px;
+  top: 434px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop4 {
+	position: absolute;
+  left: 513px;
+  top: 503px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop5 {
+	position: absolute;
+  left: 659px;
+  top: 435px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop6 {
+	position: absolute;
+  left: 805px;
+  top: 586px;
+  width: 140px;
+  height: 105px;
+	z-index: 10;
+}
+
+.hit_pop7 {
+	position: absolute;
+  left: 805px;
+  top: 479px;
+  width: 140px;
+  height: 105px;
+	z-index: 10;
+}
+
+.hit_close1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
+
+
+@keyframes flashLongOn {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
 }
 
 
